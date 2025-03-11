@@ -1377,7 +1377,9 @@ html *::-webkit-scrollbar-track {
   }
 }
 body {
-  background: #ffdf6a;
+  background: url("/img/background.jpg");
+}
+background-position: center {
   transition: background 0.5s ease-out;
   -moz-transition: background 0.5s ease-out;
   -webkit-transition: background 0.5s ease-out;
@@ -1389,12 +1391,12 @@ body {
   color: #1f1235;
   position: relative;
 }
-body .main {
+background-position: center .main {
   max-width: 1080px;
   width: 95%;
   margin: 0 auto;
 }
-body .main .main-content {
+background-position: center .main .main-content {
   background-color: #fff;
   background-image: url("/img/blog-background.png");
   border-radius: 20px;
